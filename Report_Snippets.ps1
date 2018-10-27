@@ -43,7 +43,7 @@ Write-Host $domainExpires.Replace(" ","")
 }
 
 function GPreport($path){
-    Get-GPOReport -All -Domain SIT.Internal -Server DC_HOSTNAME -ReportType HTML -Path "C:\Automated Log Reports\$date\GPOReport.html"
+    Get-GPOReport -All -Domain SITE.Internal -Server DC_HOSTNAME -ReportType HTML -Path "C:\Automated Log Reports\$date\GPOReport.html"
     }
 
 
