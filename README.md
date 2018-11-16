@@ -25,3 +25,7 @@ Report_Snippets.ps1
     Turns the horrible task of making user accounts in september into a 10 minute task.
     Just get a csv from admissions, juggle the columns to match, and press go.
     You'll have to set various fields like AD OUs and paths to home directories etc.
+
+  SSPR.ps1
+    Uses a £10 card reader from Amazon to enable students to reset their own passwords.
+    Requires you to copy card numbers from Door system to AD
