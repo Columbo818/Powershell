@@ -29,3 +29,6 @@ Report_Snippets.ps1
   SSPR.ps1
     Uses a £10 card reader from Amazon to enable students to reset their own passwords.
     Requires you to copy card numbers from Door system to AD
+    
+  Share_Finder.ps1
+    Locates all shared folders on the server. Outputs permissions data to a CSV.
